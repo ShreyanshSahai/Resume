@@ -1,0 +1,147 @@
+body {
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+	height: 50vh;
+	opacity: 0.8;
+	background-image: url("/image/headerimage.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.horizontal-list li {
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+	font-weight: 200;
+	font-size: 1.2rem;
+}
+
+.horizontal-list li a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu li a {
+	transition: color 0.5s, border-bottom 4s;
+	color: white;
+}
+
+.nav-menu li a:hover {
+	color: lightgrey;
+	border-bottom: 1px solid black;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+	margin-top: 12vh;
+}
+
+#my-name {
+	font-size: 4rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+	padding: 10px;
+	font-size: 1.5rem;
+	border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#my-image {
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -80px;
+}
+
+#my-image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 3px solid white;
+	box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+	padding: 10px;
+	width: 70%;
+	text-align: justify;
+	color: grey;
+	line-height: 28px;
+	font-size: 1.1rem;
+	margin: auto;
+}
+
+.text-highlight {
+	color: #2857a4;
+	font-weight: 600;
+}
+.text-end {
+	text-align: right;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+section:nth-child(2n + 1) {
+	background-color: rgba(255, 245, 224, 0.288);
+}
+section:nth-child(2n) {
+	background-color: rgba(186, 238, 255, 0.253);
+}
+.section-heading {
+	margin: 20px;
+	padding: 20px;
+	font-weight: 400;
+}
+.blue-color {
+	color: rgb(228, 121, 0);
+}
+.skill-display {
+	width: 70%;
+	height: 100px;
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
